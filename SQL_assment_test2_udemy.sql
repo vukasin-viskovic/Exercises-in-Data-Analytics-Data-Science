@@ -1,12 +1,15 @@
 -- THE EXERCISES AND DATA COME FROM:
 -- https://www.udemy.com/course/the-complete-sql-bootcamp/
 
+-- SOLUTIONS ARE MINE. I HAVE OCCASIONALLY ADDED ASPECTS OF SOLUTIONS
+-- SUGGESTED BY THE COURSE LECTURER, JOSE PORTILLA, AS COMMENTS TO MY CODE
+
 -- How can you retrieve all the information from 
 -- the cd.facilities table?
 
 SELECT *
 FROM cd.facilities
-LIMIT 3;
+LIMIT 3; -- to make the query run faster
 
 -- You want to print out a list of all of the facilities 
 -- and their cost to members. How would you retrieve 
@@ -14,7 +17,7 @@ LIMIT 3;
 
 SELECT name, membercost
 FROM cd.facilities
-LIMIT 3;
+LIMIT 3; -- to make the query run faster
 
 -- How can you produce a list of facilities that charge a 
 -- fee to members?
@@ -85,7 +88,7 @@ WHERE guestcost >= 10;
 
 SELECT facid, SUM(slots) AS total_slots
 FROM cd.bookings
-WHERE TO_CHAR(starttime, 'YYYY-MM') = '2012-09'
+WHERE TO_CHAR(starttime, 'YYYY-MM') = '2012-09' -- Here, I could have also used: WHERE starttime >= '2012-09-01' AND starttime < '2012-10-01'
 GROUP BY facid
 ORDER BY total_slots;
 
@@ -108,16 +111,16 @@ SELECT b.starttime, f.name
 FROM cd.bookings AS b
 INNER JOIN cd.facilities AS f
 ON b.facid = f.facid
-WHERE f.name ILIKE '%tennis%' AND 
+WHERE f.name ILIKE '%tennis%' AND -- Here I am distinguishing between tennis and table tennis facilities
 	f.name NOT ILIKE '%table%' AND
-	TO_CHAR(starttime, 'yyyy-mm-dd') = '2012-09-21'
+	TO_CHAR(b.starttime, 'yyyy-mm-dd') = '2012-09-21' -- alternatively here: cd.bookings.starttime >= '2012-09-21' AND cd.bookings.starttime < '2012-09-22'
 ORDER BY b.starttime;
 
--- I could have also used this:
+-- I could have also used this information to detect 'tennis', and not 'table tennis' facilities:
 
 SELECT DISTINCT facid, name
 FROM cd.facilities
-ORDER BY facid;
+ORDER BY facid; -- based on this, I would have known that tennis courts are represented by: facid IN (0, 1) 
 
 -- How can you produce a list of the start times for 
 -- bookings by members named 'David Farrell'?
