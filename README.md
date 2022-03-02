@@ -1,4 +1,4 @@
-# hello_world
-My first repository (practice) ｡^‿^｡
+# Exercises and Projects
 
-I hope that I find this message in three years, and smile knowing how much I've learned, growned and accomplished in the meantime.
+This is the location where I'll be submitting my R/Python/SQL code for various exercises and projects I'll be doing.
+I hope this directory will serve as a display of my skills in these programming languages.
