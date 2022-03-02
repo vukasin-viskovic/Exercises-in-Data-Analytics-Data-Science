@@ -1,3 +1,6 @@
+-- THE EXERCISES AND DATA COME FROM:
+-- https://www.udemy.com/course/the-complete-sql-bootcamp/
+
 -- How can you retrieve all the information from 
 -- the cd.facilities table?
 
