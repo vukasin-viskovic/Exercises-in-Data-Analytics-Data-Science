@@ -12,7 +12,7 @@ I will be enhancing, updating and re-structuring this content, slowly more of my
 
 The code is mostly based on [this](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) Udemy course.
 
-	1. [NumPy]()
+	1. [NumPy](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S18%20KNN.ipynb)
 	2. [Pandas]()
 	3. [Pandas Assessment Test]()
 	4. [Matplotlib]()
