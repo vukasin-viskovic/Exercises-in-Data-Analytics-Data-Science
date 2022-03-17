@@ -4,7 +4,7 @@ This is the location where I'll be submitting my **R**/**Python**/**SQL** code f
 
 I hope this directory will serve as a display of my skills in these programming languages.
 
-I will be enhancing, updating and re-structuring this content, slowly more of my own projects and data explorations.
+I will be enhancing, updating and re-structuring this content, slowly adding more of my own projects and data explorations.
 
 ## Content:
 
