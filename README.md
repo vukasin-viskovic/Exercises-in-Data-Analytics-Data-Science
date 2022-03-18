@@ -8,7 +8,8 @@ I will be enhancing, updating and re-structuring this content, slowly adding mor
 
 ## Content:
 
-### [50 Coding Challenges](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Coding%20Problems/README.md)
+### Coding Challenges...
+- ... can be found [here](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Coding%20Problems/README.md)
 
 ### Python
 
