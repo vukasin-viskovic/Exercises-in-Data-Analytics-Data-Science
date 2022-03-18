@@ -8,6 +8,8 @@ I will be enhancing, updating and re-structuring this content, slowly adding mor
 
 ## Content:
 
+### [50 Coding Challenges](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Coding%20Problems/README.md)
+
 ### Python
 
 The code is mostly based on [this](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) Udemy course.
