@@ -1,11 +1,13 @@
 ## This Course's Goal:
 
 - Learning what data structures and algorithms are the most appropriate to use in a particular situation.
-    - e.g.: When is a *list* the best solution? 
+- We will deal with questions such as:
+    - When is a *list* the best solution to a problem? 
     - When is it a *linked list*, or a *binary search tree*, or a *graph*?
-
-- Cool [resource](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) for writing mathematical expressions in markdown. 
+_____
+[Writing mathematical expressions in markdown](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) 
 _____
 ## Table of Content:
 
-Section 1 - Big O
+1. Big O
+2. Classes and Pointers
