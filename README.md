@@ -21,7 +21,7 @@ The code is mostly based on [this](https://www.udemy.com/course/python-for-data-
 4. [Matplotlib](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S8%20Matplotlib.ipynb)
 5. [Seaborn](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S9%20Seaborn.ipynb)
 6. [Pandas Built-in Data Visualization](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S10%20Pandas%20built-in%20visualization.ipynb)
-7. [Plotly and Cufflinks]()
+7. [Plotly and Cufflinks](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S11%20Plotly%20and%20Cufflinks.ipynb)
 8. Geographical Plotting with Python
 9. [K Nearest Neighbors](https://github.com/vuxvix/Exercises-in-Data-Analytics-Data-Science/blob/master/Python/Python%20S18%20KNN.ipynb)
 
